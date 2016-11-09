@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/ProjetoPg.dir/template.cpp.o CMakeFiles/ProjetoPg.dir/libraryPG.cpp.o  -o ProjetoPg -rdynamic glfw/src/libglfw3.a -lGLU -lGL -lrt -lm -ldl -lX11 -lpthread -lXrandr -lXinerama -lXxf86vm -lXcursor 
