@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/llamaphone/Desktop/API/glfw/deps/glad.c
+/tmp/guest-jOwJf2/PGtemplate/glfw/deps/glad.c
 stdio.h
 -
 stdlib.h
@@ -16,13 +16,13 @@ string.h
 glad/glad.h
 -
 
-/home/llamaphone/Desktop/API/glfw/examples/simple.c
+/tmp/guest-jOwJf2/PGtemplate/glfw/examples/simple.c
 glad/glad.h
 -
 GLFW/glfw3.h
 -
 linmath.h
-/home/llamaphone/Desktop/API/glfw/examples/linmath.h
+/tmp/guest-jOwJf2/PGtemplate/glfw/examples/linmath.h
 stdlib.h
 -
 stdio.h

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/llamaphone/Desktop/API
+CMAKE_SOURCE_DIR = /tmp/guest-jOwJf2/PGtemplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/llamaphone/Desktop/API
+CMAKE_BINARY_DIR = /tmp/guest-jOwJf2/PGtemplate
 
 # Include any dependencies generated for this target.
 include glfw/tests/CMakeFiles/cursor.dir/depend.make
@@ -51,17 +51,17 @@ include glfw/tests/CMakeFiles/cursor.dir/flags.make
 
 glfw/tests/CMakeFiles/cursor.dir/cursor.c.o: glfw/tests/CMakeFiles/cursor.dir/flags.make
 glfw/tests/CMakeFiles/cursor.dir/cursor.c.o: glfw/tests/cursor.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/llamaphone/Desktop/API/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/guest-jOwJf2/PGtemplate/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object glfw/tests/CMakeFiles/cursor.dir/cursor.c.o"
-	cd /home/llamaphone/Desktop/API/glfw/tests && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/cursor.dir/cursor.c.o   -c /home/llamaphone/Desktop/API/glfw/tests/cursor.c
+	cd /tmp/guest-jOwJf2/PGtemplate/glfw/tests && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/cursor.dir/cursor.c.o   -c /tmp/guest-jOwJf2/PGtemplate/glfw/tests/cursor.c
 
 glfw/tests/CMakeFiles/cursor.dir/cursor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cursor.dir/cursor.c.i"
-	cd /home/llamaphone/Desktop/API/glfw/tests && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/llamaphone/Desktop/API/glfw/tests/cursor.c > CMakeFiles/cursor.dir/cursor.c.i
+	cd /tmp/guest-jOwJf2/PGtemplate/glfw/tests && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/guest-jOwJf2/PGtemplate/glfw/tests/cursor.c > CMakeFiles/cursor.dir/cursor.c.i
 
 glfw/tests/CMakeFiles/cursor.dir/cursor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cursor.dir/cursor.c.s"
-	cd /home/llamaphone/Desktop/API/glfw/tests && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/llamaphone/Desktop/API/glfw/tests/cursor.c -o CMakeFiles/cursor.dir/cursor.c.s
+	cd /tmp/guest-jOwJf2/PGtemplate/glfw/tests && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/guest-jOwJf2/PGtemplate/glfw/tests/cursor.c -o CMakeFiles/cursor.dir/cursor.c.s
 
 glfw/tests/CMakeFiles/cursor.dir/cursor.c.o.requires:
 .PHONY : glfw/tests/CMakeFiles/cursor.dir/cursor.c.o.requires
@@ -74,17 +74,17 @@ glfw/tests/CMakeFiles/cursor.dir/cursor.c.o.provides.build: glfw/tests/CMakeFile
 
 glfw/tests/CMakeFiles/cursor.dir/__/deps/glad.c.o: glfw/tests/CMakeFiles/cursor.dir/flags.make
 glfw/tests/CMakeFiles/cursor.dir/__/deps/glad.c.o: glfw/deps/glad.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/llamaphone/Desktop/API/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/guest-jOwJf2/PGtemplate/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object glfw/tests/CMakeFiles/cursor.dir/__/deps/glad.c.o"
-	cd /home/llamaphone/Desktop/API/glfw/tests && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/cursor.dir/__/deps/glad.c.o   -c /home/llamaphone/Desktop/API/glfw/deps/glad.c
+	cd /tmp/guest-jOwJf2/PGtemplate/glfw/tests && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/cursor.dir/__/deps/glad.c.o   -c /tmp/guest-jOwJf2/PGtemplate/glfw/deps/glad.c
 
 glfw/tests/CMakeFiles/cursor.dir/__/deps/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cursor.dir/__/deps/glad.c.i"
-	cd /home/llamaphone/Desktop/API/glfw/tests && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/llamaphone/Desktop/API/glfw/deps/glad.c > CMakeFiles/cursor.dir/__/deps/glad.c.i
+	cd /tmp/guest-jOwJf2/PGtemplate/glfw/tests && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/guest-jOwJf2/PGtemplate/glfw/deps/glad.c > CMakeFiles/cursor.dir/__/deps/glad.c.i
 
 glfw/tests/CMakeFiles/cursor.dir/__/deps/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cursor.dir/__/deps/glad.c.s"
-	cd /home/llamaphone/Desktop/API/glfw/tests && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/llamaphone/Desktop/API/glfw/deps/glad.c -o CMakeFiles/cursor.dir/__/deps/glad.c.s
+	cd /tmp/guest-jOwJf2/PGtemplate/glfw/tests && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/guest-jOwJf2/PGtemplate/glfw/deps/glad.c -o CMakeFiles/cursor.dir/__/deps/glad.c.s
 
 glfw/tests/CMakeFiles/cursor.dir/__/deps/glad.c.o.requires:
 .PHONY : glfw/tests/CMakeFiles/cursor.dir/__/deps/glad.c.o.requires
@@ -116,7 +116,7 @@ glfw/tests/cursor: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 glfw/tests/cursor: /usr/lib/x86_64-linux-gnu/libXcursor.so
 glfw/tests/cursor: glfw/tests/CMakeFiles/cursor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable cursor"
-	cd /home/llamaphone/Desktop/API/glfw/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cursor.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/guest-jOwJf2/PGtemplate/glfw/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cursor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw/tests/CMakeFiles/cursor.dir/build: glfw/tests/cursor
@@ -127,10 +127,10 @@ glfw/tests/CMakeFiles/cursor.dir/requires: glfw/tests/CMakeFiles/cursor.dir/__/d
 .PHONY : glfw/tests/CMakeFiles/cursor.dir/requires
 
 glfw/tests/CMakeFiles/cursor.dir/clean:
-	cd /home/llamaphone/Desktop/API/glfw/tests && $(CMAKE_COMMAND) -P CMakeFiles/cursor.dir/cmake_clean.cmake
+	cd /tmp/guest-jOwJf2/PGtemplate/glfw/tests && $(CMAKE_COMMAND) -P CMakeFiles/cursor.dir/cmake_clean.cmake
 .PHONY : glfw/tests/CMakeFiles/cursor.dir/clean
 
 glfw/tests/CMakeFiles/cursor.dir/depend:
-	cd /home/llamaphone/Desktop/API && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/llamaphone/Desktop/API /home/llamaphone/Desktop/API/glfw/tests /home/llamaphone/Desktop/API /home/llamaphone/Desktop/API/glfw/tests /home/llamaphone/Desktop/API/glfw/tests/CMakeFiles/cursor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/guest-jOwJf2/PGtemplate && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/guest-jOwJf2/PGtemplate /tmp/guest-jOwJf2/PGtemplate/glfw/tests /tmp/guest-jOwJf2/PGtemplate /tmp/guest-jOwJf2/PGtemplate/glfw/tests /tmp/guest-jOwJf2/PGtemplate/glfw/tests/CMakeFiles/cursor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : glfw/tests/CMakeFiles/cursor.dir/depend
 

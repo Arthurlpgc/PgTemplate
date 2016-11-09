@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/llamaphone/Desktop/API/glfw/deps/getopt.c
+/tmp/guest-jOwJf2/PGtemplate/glfw/deps/getopt.c
 getopt.h
-/home/llamaphone/Desktop/API/glfw/deps/getopt.h
+/tmp/guest-jOwJf2/PGtemplate/glfw/deps/getopt.h
 stddef.h
 -
 string.h
 -
 
-/home/llamaphone/Desktop/API/glfw/deps/getopt.h
+/tmp/guest-jOwJf2/PGtemplate/glfw/deps/getopt.h
 
-/home/llamaphone/Desktop/API/glfw/deps/glad.c
+/tmp/guest-jOwJf2/PGtemplate/glfw/deps/glad.c
 stdio.h
 -
 stdlib.h
@@ -26,7 +26,7 @@ string.h
 glad/glad.h
 -
 
-/home/llamaphone/Desktop/API/glfw/tests/events.c
+/tmp/guest-jOwJf2/PGtemplate/glfw/tests/events.c
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -42,7 +42,7 @@ string.h
 locale.h
 -
 getopt.h
-/home/llamaphone/Desktop/API/glfw/tests/getopt.h
+/tmp/guest-jOwJf2/PGtemplate/glfw/tests/getopt.h
 
 glfw/deps/KHR/khrplatform.h
 stdint.h

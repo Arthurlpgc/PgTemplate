@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/llamaphone/Desktop/API
+CMAKE_SOURCE_DIR = /tmp/guest-jOwJf2/PGtemplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/llamaphone/Desktop/API
+CMAKE_BINARY_DIR = /tmp/guest-jOwJf2/PGtemplate
 
 # Utility rule file for uninstall.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/llamaphone/Desktop/API
 include glfw/CMakeFiles/uninstall.dir/progress.make
 
 glfw/CMakeFiles/uninstall:
-	cd /home/llamaphone/Desktop/API/glfw && /usr/bin/cmake -P /home/llamaphone/Desktop/API/glfw/cmake_uninstall.cmake
+	cd /tmp/guest-jOwJf2/PGtemplate/glfw && /usr/bin/cmake -P /tmp/guest-jOwJf2/PGtemplate/glfw/cmake_uninstall.cmake
 
 uninstall: glfw/CMakeFiles/uninstall
 uninstall: glfw/CMakeFiles/uninstall.dir/build.make
@@ -57,10 +57,10 @@ glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : glfw/CMakeFiles/uninstall.dir/build
 
 glfw/CMakeFiles/uninstall.dir/clean:
-	cd /home/llamaphone/Desktop/API/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /tmp/guest-jOwJf2/PGtemplate/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : glfw/CMakeFiles/uninstall.dir/clean
 
 glfw/CMakeFiles/uninstall.dir/depend:
-	cd /home/llamaphone/Desktop/API && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/llamaphone/Desktop/API /home/llamaphone/Desktop/API/glfw /home/llamaphone/Desktop/API /home/llamaphone/Desktop/API/glfw /home/llamaphone/Desktop/API/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/guest-jOwJf2/PGtemplate && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/guest-jOwJf2/PGtemplate /tmp/guest-jOwJf2/PGtemplate/glfw /tmp/guest-jOwJf2/PGtemplate /tmp/guest-jOwJf2/PGtemplate/glfw /tmp/guest-jOwJf2/PGtemplate/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : glfw/CMakeFiles/uninstall.dir/depend
 

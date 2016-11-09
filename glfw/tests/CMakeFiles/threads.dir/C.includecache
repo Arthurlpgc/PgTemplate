@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/llamaphone/Desktop/API/glfw/deps/glad.c
+/tmp/guest-jOwJf2/PGtemplate/glfw/deps/glad.c
 stdio.h
 -
 stdlib.h
@@ -16,9 +16,9 @@ string.h
 glad/glad.h
 -
 
-/home/llamaphone/Desktop/API/glfw/deps/tinycthread.c
+/tmp/guest-jOwJf2/PGtemplate/glfw/deps/tinycthread.c
 tinycthread.h
-/home/llamaphone/Desktop/API/glfw/deps/tinycthread.h
+/tmp/guest-jOwJf2/PGtemplate/glfw/deps/tinycthread.h
 stdlib.h
 -
 signal.h
@@ -36,7 +36,7 @@ process.h
 sys/timeb.h
 -
 
-/home/llamaphone/Desktop/API/glfw/deps/tinycthread.h
+/tmp/guest-jOwJf2/PGtemplate/glfw/deps/tinycthread.h
 time.h
 -
 sys/time.h
@@ -46,9 +46,9 @@ pthread.h
 windows.h
 -
 
-/home/llamaphone/Desktop/API/glfw/tests/threads.c
+/tmp/guest-jOwJf2/PGtemplate/glfw/tests/threads.c
 tinycthread.h
-/home/llamaphone/Desktop/API/glfw/tests/tinycthread.h
+/tmp/guest-jOwJf2/PGtemplate/glfw/tests/tinycthread.h
 glad/glad.h
 -
 GLFW/glfw3.h

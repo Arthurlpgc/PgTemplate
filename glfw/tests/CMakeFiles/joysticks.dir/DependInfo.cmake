@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/llamaphone/Desktop/API/glfw/deps/glad.c" "/home/llamaphone/Desktop/API/glfw/tests/CMakeFiles/joysticks.dir/__/deps/glad.c.o"
-  "/home/llamaphone/Desktop/API/glfw/tests/joysticks.c" "/home/llamaphone/Desktop/API/glfw/tests/CMakeFiles/joysticks.dir/joysticks.c.o"
+  "/tmp/guest-jOwJf2/PGtemplate/glfw/deps/glad.c" "/tmp/guest-jOwJf2/PGtemplate/glfw/tests/CMakeFiles/joysticks.dir/__/deps/glad.c.o"
+  "/tmp/guest-jOwJf2/PGtemplate/glfw/tests/joysticks.c" "/tmp/guest-jOwJf2/PGtemplate/glfw/tests/CMakeFiles/joysticks.dir/joysticks.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/llamaphone/Desktop/API/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/tmp/guest-jOwJf2/PGtemplate/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/llamaphone/Desktop/API/glfw/deps/glad.c
+/tmp/guest-jOwJf2/PGtemplate/glfw/deps/glad.c
 stdio.h
 -
 stdlib.h
@@ -16,7 +16,7 @@ string.h
 glad/glad.h
 -
 
-/home/llamaphone/Desktop/API/glfw/examples/boing.c
+/tmp/guest-jOwJf2/PGtemplate/glfw/examples/boing.c
 stdio.h
 -
 stdlib.h

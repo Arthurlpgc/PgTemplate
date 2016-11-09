@@ -1,5 +1,6 @@
 #include <GLFW/glfw3.h>
 #include <bits/stdc++.h>
+#include "libraryPG.h"
 using namespace std;
 typedef pair<double,double> Point;
 Point operator*(Point p,double x){
@@ -57,6 +58,7 @@ void mmove(GLFWwindow* window, double xpos, double ypos){
 }
 
 int main(void){	
+	printTest2();
     GLFWwindow* window;
     if (!glfwInit())return -1;
     window = glfwCreateWindow(TamanhoHor, TamanhoVer,  Titulo, NULL, NULL);

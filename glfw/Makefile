@@ -42,10 +42,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/llamaphone/Desktop/API
+CMAKE_SOURCE_DIR = /tmp/guest-jOwJf2/PGtemplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/llamaphone/Desktop/API
+CMAKE_BINARY_DIR = /tmp/guest-jOwJf2/PGtemplate
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/llamaphone/Desktop/API && $(CMAKE_COMMAND) -E cmake_progress_start /home/llamaphone/Desktop/API/CMakeFiles /home/llamaphone/Desktop/API/glfw/CMakeFiles/progress.marks
-	cd /home/llamaphone/Desktop/API && $(MAKE) -f CMakeFiles/Makefile2 glfw/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/llamaphone/Desktop/API/CMakeFiles 0
+	cd /tmp/guest-jOwJf2/PGtemplate && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/guest-jOwJf2/PGtemplate/CMakeFiles /tmp/guest-jOwJf2/PGtemplate/glfw/CMakeFiles/progress.marks
+	cd /tmp/guest-jOwJf2/PGtemplate && $(MAKE) -f CMakeFiles/Makefile2 glfw/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/guest-jOwJf2/PGtemplate/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/llamaphone/Desktop/API && $(MAKE) -f CMakeFiles/Makefile2 glfw/clean
+	cd /tmp/guest-jOwJf2/PGtemplate && $(MAKE) -f CMakeFiles/Makefile2 glfw/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/llamaphone/Desktop/API && $(MAKE) -f CMakeFiles/Makefile2 glfw/preinstall
+	cd /tmp/guest-jOwJf2/PGtemplate && $(MAKE) -f CMakeFiles/Makefile2 glfw/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/llamaphone/Desktop/API && $(MAKE) -f CMakeFiles/Makefile2 glfw/preinstall
+	cd /tmp/guest-jOwJf2/PGtemplate && $(MAKE) -f CMakeFiles/Makefile2 glfw/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/llamaphone/Desktop/API && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/guest-jOwJf2/PGtemplate && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 glfw/CMakeFiles/uninstall.dir/rule:
-	cd /home/llamaphone/Desktop/API && $(MAKE) -f CMakeFiles/Makefile2 glfw/CMakeFiles/uninstall.dir/rule
+	cd /tmp/guest-jOwJf2/PGtemplate && $(MAKE) -f CMakeFiles/Makefile2 glfw/CMakeFiles/uninstall.dir/rule
 .PHONY : glfw/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ uninstall: glfw/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd /home/llamaphone/Desktop/API && $(MAKE) -f glfw/CMakeFiles/uninstall.dir/build.make glfw/CMakeFiles/uninstall.dir/build
+	cd /tmp/guest-jOwJf2/PGtemplate && $(MAKE) -f glfw/CMakeFiles/uninstall.dir/build.make glfw/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 # Help Target
@@ -180,6 +180,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/llamaphone/Desktop/API && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/guest-jOwJf2/PGtemplate && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
