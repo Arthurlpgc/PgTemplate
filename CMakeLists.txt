@@ -4,7 +4,6 @@ find_package(OpenGL REQUIRED)
 find_package(X11)
 include_directories(glfw/include ${OPENGL_INCLUDE_DIRS})
 add_subdirectory(glfw)
-set(SOURCES template.cpp libraryPG.cpp libraryPG.h)
-add_executable(ProjetoPg ${SOURCES})
+add_executable(ProjetoPg template.cpp)
 target_link_libraries(ProjetoPg glfw  ${OPENGL_LIBRARIES} ${GLFW_LIBRARIES})
 #created by alpgc
