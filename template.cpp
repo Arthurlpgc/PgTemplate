@@ -37,7 +37,15 @@ void DrawLine(Line r){
 		glVertex2f(xToHor(r.b.first),yToVer(r.b.second));
 	glEnd();
 }
-
+void drawPoint(int x,int y,int rad){
+  for(int i=x-rad;i<=x+rad;i++){
+  	glBegin(GL_POINTS);
+      for(int j = y-rad; j <= y+rad; ++j){
+      	if((i-x)*(i-x)+(j-y)*(j-y)<=rad*rad)glVertex2i(i, j);
+      }
+    glEnd();
+  }
+}
 
 
 //eventos
